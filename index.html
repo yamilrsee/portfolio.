@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tangerine:wght@400;700&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/logo.png">
+    <title data-i18n="page-title">Casa Pastel | La mejor pastelería y repostería en Jaco Costa Rica</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="#inicio" class="logo__container"><img class="icon" draggable="false" src="assets/logo.jpg" alt="logo"></a>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="#inicio" data-i18n="nav-home">Inicio</a></li>
+                    <li><a href="#postres" data-i18n="nav-desserts">Postres</a></li>
+                    <li><a href="galeria.html" data-i18n="nav-gallery">Galería</a></li>
+                    <li><a href="#nosotros" data-i18n="nav-about">Nosotros</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-btns">
+                <ul>
+                    <li>
+                        <div class="language-switcher language-desktop">
+                            <button class="lang-toggle" data-lang="es" aria-label="Toggle language">
+                                <img src="assets/spain-flag.svg" alt="Spain flag" class="lang-flag">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="number">
+                    <a href="http://wa.link/m8lmy1" target="_blank">+506 7014-8233</a>
+                </button>
+            </div>
+
+            <div class="ham__mobile">
+                <ul class="language-ul">
+                    <li>
+                        <div class="language-switcher language-mobile">
+                            <button class="lang-toggle" data-lang="es" aria-label="Toggle language">
+                                <img src="assets/spain-flag.svg" alt="Spain flag" class="lang-flag">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="hamburger" draggable="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="mobile-nav">
+        <div class="close-icon">
+            <svg class="close" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#101010"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+        <ul class="nav__links">
+            <li><a href="#inicio" data-i18n="nav-home">Inicio</a></li>
+            <li><a href="#postres" data-i18n="nav-desserts">Postres</a></li>
+            <li><a href="galeria.html" data-i18n="nav-gallery">Galería</a></li>
+            <li><a href="#nosotros" data-i18n="nav-about">Nosotros</a></li>
+        </ul>
+        <div class="btn-mobile">
+            <button class="number-mobile"><a href="http://wa.link/m8lmy1" target="_blank">+506 7014-8233</a></button> 
+        </div>
+    </nav>
+    
+    <main>
+        <!-- hero section -->
+        <section class="hero" id="inicio">
+            <div class="left-section">
+                <h1 class="title" data-i18n="hero-title">Pastelería, mesas <span class="accent" data-i18n="hero-title-accent">dulces</span> para toda ocasión</h1>
+                <p class="description" data-i18n="hero-description">Variedad, sabor y arte en cada pastel. Personalizamos tu diseño con amor y detalle. ¡Haz tu pedido hoy mismo y reserva tu fecha!</p>
+                <div class="btns">
+                    <a href="http://wa.link/m8lmy1"><button class="main-cta" data-i18n="hero-cta-reserve">Reservar Mi Postre
+                        <img src="assets/arrow.svg" draggable="false" class="arrow" alt="arrow">
+                    </button></a>
+                    <a href="#postres"><button class="secondary-cta" data-i18n="hero-cta-menu">Ver Menú</button></a>
+                </div>
+
+                <div class="happy-customers">
+                    <div class="portraits">
+                        <div class="pic pic1"></div>
+                        <div class="pic pic2"></div>
+                        <div class="pic pic3"></div>
+                    </div>
+
+                    <div class="stars">
+                        <div class="stars__text">
+                            <p class="stars-p" data-i18n="hero-customers">Más de <strong>15.000</strong> clientes felices</p>
+                        </div>
+                        <div class="stars__container">
+                            <img src="assets/star-dark.svg" class="star" draggable="false" aria-hidden="true" alt="star">
+                            <img src="assets/star-dark.svg" class="star" draggable="false" aria-hidden="true" alt="star">
+                            <img src="assets/star-dark.svg" class="star" draggable="false" aria-hidden="true" alt="star">
+                            <img src="assets/star-dark.svg" class="star" draggable="false" aria-hidden="true" alt="star">
+                            <img src="assets/star-dark.svg" class="star" draggable="false" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="assets/hero-image.jpg" class="hero-image" draggable="false" data-lang-img-es="assets/hero-image.jpg" data-lang-img-en="assets/hero-image-en.jpg" alt="Años de experiencia (Spanish)">
+            </div>
+        </section>
+        <!-- hero section ends -->
+
+        <!-- postres section -->
+        <section class="postres" id="postres">
+            <div class="postres__header">
+                <p class="postres__p" data-i18n="postres-subtitle">NUESTROS</p>
+                <h2 class="postres__title" data-i18n="postres-title">POSTRES</h2>
+            </div>
+
+            <!-- Cards -->
+            <div class="cards">
+                <div class="card card1">
+                    <img src="assets/pastel1.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-lustre">Pasteles de Lustre</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <img src="assets/pastel2.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-tres-leches">Tres Leches</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <img src="assets/pasteles3.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-edible-prints">Impresiones Comestibles</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="card card4">
+                    <img src="assets/pastel4.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-strawberries">Fresas Decoradas</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="card card5">
+                    <img src="assets/pastel5.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-fondant">Queques de Fondant</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="card card6">
+                    <img src="assets/pastel6.png" draggable="false" alt="pastel de lustre" class="card-img">
+                    <div class="card-content">
+                        <h3 data-i18n="card-cupcakes">Cupcakes Decorados</h3>
+                        <div class="card-rating">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                            <img src="assets/star.svg" aria-hidden="true" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Ends cards -->
+            <div class="cards-btns">
+                <a href="galeria.html" draggable="false"><button class="gallery-btn" draggable="false" data-i18n="postres-gallery-btn">Ver Galería <img src="assets/gallery-icon.svg" class="gallery-icon" draggable="false" alt="gallery icon"></button></a>
+            </div>
+        </section>
+        <!-- ends postres -->
+
+        <!-- nosotros section -->
+        <section class="nosotros" id="nosotros">
+            <div class="nosotros-content">
+                <div class="nosotros-left">
+                    <h2 class="nosotros-title" data-i18n="nosotros-title">ACERCA DE <span class="accent" data-i18n="nosotros-title-accent">CASA PASTEL</span></h2>
+                    <p class="nosotros-p" data-i18n="nosotros-description">En Casa Pastel, llevamos más de <strong>8 años</strong> endulzando momentos especiales con pasteles 100% personalizados según tus gustos y preferencias.<br><br>Ofrecemos una gran variedad de sabores, toppings, cupcakes y también paquetes completos para eventos, ideales para quienes buscan una experiencia deliciosa y única.</p>
+                    <a href="/" draggable="false"><button class="nosotros-cta" draggable="false" data-i18n="nosotros-cta">Reservar Mi Postre
+                        <img src="assets/schedule-icon.svg" draggable="false" class="schedule-icon" alt="schedule icon">
+                    </button></a>
+                </div>
+                <div class="nosotros-right">
+                    <img src="assets/review.jpg" draggable="false" class="review-img" data-lang-img-es="assets/review.jpg" data-lang-img-en="assets/review-en.jpg" alt="Review image (Spanish)">
+                </div>
+            </div>
+        </section>
+        <!-- ends nosotros -->
+
+        <section class="footer">
+            <div class="footer__container">
+                <p class="footer-txt" data-i18n="footer-copyright">Copyright © 2023 Casa Pastel. Todos los derechos reservados.</p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+    <div class="backdrop"></div>
+</body>
+</html>

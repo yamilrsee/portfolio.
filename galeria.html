@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/logo.jpg">
+    <title>Casa Pastel | Pasteles en Jaco Costa Rica</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="index.html#inicio" class="logo__container"><img class="icon" draggable="false" src="assets/logo.jpg" alt="logo"></a>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <li><a href="index.html#inicio" data-i18n="nav-home">Inicio</a></li>
+                    <li><a href="index.html#postres" data-i18n="nav-desserts">Postres</a></li>
+                    <li><a href="galeria.html" data-i18n="nav-gallery">Galería</a></li>
+                    <li><a href="index.html#nosotros" data-i18n="nav-about">Nosotros</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-btns">
+                <ul>
+                    <li>
+                        <div class="language-switcher">
+                            <button class="lang-toggle" data-lang="es" aria-label="Toggle language">
+                                <img src="assets/spain-flag.svg" alt="Spain flag" class="lang-flag">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="number">
+                    <a href="http://wa.link/m8lmy1" target="_blank">+506 7014-8233</a>
+                </button>
+            </div>
+
+            <div class="ham__mobile">
+                <ul class="language-ul">
+                    <li>
+                        <div class="language-mobile">
+                            <button class="lang-toggle" data-lang="es" aria-label="Toggle language">
+                                <img src="assets/spain-flag.svg" alt="Spain flag" class="lang-flag">
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <div class="hamburger" draggable="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="mobile-nav">
+        <div class="close-icon">
+            <svg class="close" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#101010"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+        <ul class="nav__links">
+            <li><a href="#inicio" data-i18n="nav-home">Inicio</a></li>
+            <li><a href="#postres" data-i18n="nav-desserts">Postres</a></li>
+            <li><a href="galeria.html" data-i18n="nav-gallery">Galería</a></li>
+            <li><a href="#nosotros" data-i18n="nav-about">Nosotros</a></li>
+        </ul>
+        <div class="btn-mobile">
+            <div class="language-desktop">
+                <button class="lang-toggle" data-lang="es" aria-label="Toggle language">
+                    <img src="assets/spain-flag.svg" alt="Spain flag" class="lang-flag">
+                </button>
+            </div>
+            <button class="number-mobile"><a href="http://wa.link/m8lmy1" target="_blank">+506 7014-8233</a></button> 
+        </div>
+    </nav>
+
+    <main>
+        <section class="gallery" id="gallery">
+            <div class="gallery-cards">
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/one.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/two.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/three.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/four.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/five.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/six.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/seven.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+                <div class="g-card g-card1">
+                    <img src="assets/gallery/.jpg" draggable="false" alt="pastel de lustre" class="card-img">
+                </div>
+            </div>
+            <a href="index.html" draggable="false" class="gallery-btn" data-i18n="gallery-btn">Página Principal</a>
+        </section>
+    </main>
+    <script src="script.js" defer></script>
+    <div class="backdrop"></div>
+</body>
+</html>
